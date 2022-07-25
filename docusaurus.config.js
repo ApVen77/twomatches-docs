@@ -40,6 +40,8 @@ const config = {
           editUrl:
             'https://github.com/ApVen77/twomatches-docs/tree/branch',
         },
+      
+        
         blog: false,
         // blog: {
         //   showReadingTime: true,
@@ -59,11 +61,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'TwoMatches',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://avatars.githubusercontent.com/u/86503727?s=200&v=4',
+          
+          
         },
+
+       
+        
+     
         items: [
         
           {to: '/blog', label: 'Blog', position: 'left'},
@@ -72,6 +80,9 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+      
+         
+          
         
         ],
       },
@@ -91,7 +102,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'Instagram',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
@@ -118,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TwoNatches.`,
       },
       prism: {
         theme: lightCodeTheme,
